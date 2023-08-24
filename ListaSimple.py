@@ -8,6 +8,9 @@ class ListaSimple():
         self.nodoFinal = None
         self.size = 0
 
+    def getInicio(self):
+        return self.nodoInicio
+
     def estaVacia(self):
         return self.nodoInicio == None
         #return self.size == 0
