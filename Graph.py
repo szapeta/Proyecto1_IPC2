@@ -1,9 +1,10 @@
 import graphviz
 
 class Graph():
-    def __init__(self, nombreArchivo):
+    def __init__(self, nombreArchivo, direccion):
         self.nombreArchivo = nombreArchivo
         self.dot = graphviz.Digraph('structs', filename=f'{self.nombreArchivo}.gv', node_attr={'shape': 'record', 'fontname':'Helvetica'})    
+        self.dot.attr(rankdir=direccion)
 
     def add(self, nodoInicio, nodoSiguiente):
         if(nodoSiguiente != None):
