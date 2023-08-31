@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<senales>
+   <senal nombre="Prueba1" t="3" A="3">
+      <dato t="3" A="3">60</dato>
+      <dato t="1" A="2">50</dato>
+      <dato t="1" A="1">100</dato>
+      <dato t="1" A="3">90</dato>
+      <dato t="1" A="1">10</dato>
+      <dato t="1" A="3">0</dato>
+      <dato t="3" A="1">70</dato>
+      <dato t="2" A="1">40</dato>
+      <dato t="2" A="3">30</dato>
+      <dato t="2" A="2">80</dato>
+      <dato t="3" A="2">20</dato>
+   </senal>
+</senales>
